@@ -1,0 +1,97 @@
+:root {
+    --cor0: #0040EB;
+    --cor1: #7EA1C4;
+    --cor2: #FABE00;
+    --cor3: #F5F300;
+    --cor4: #0CE66C;
+    --dark1: #1c1c1c;
+    --dark2: #d3d3d333;
+}
+
+*:focus,
+.button-acessibilidade:focus {
+    outline: 2px solid var(--cor2) !important;
+}
+
+*::selection {
+    background-color: var(--cor0);
+}
+
+.pular {
+    background-color: var(--dark1);
+}
+
+.pular a{
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.pular a:hover {
+    background-color: var(--dark2);
+}
+
+body,
+.navbar,
+footer,
+.modal-content,
+.modal-header,
+.card {
+    background-color: var(--dark1);
+    color: #fff;
+}
+
+.menu .nav-link:hover,
+.link__box:hover {
+    background-color: var(--dark2) !important;
+}
+
+.dropdown-menu.show {
+    background-color: var(--dark1);
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.modal-content input,
+.btn {
+    background-color: rgba(36, 36, 36, 0.95);
+    border: 2px solid var(--dark2);
+    color: #fff !important;
+}
+
+.btn:hover {
+    background-color: var(--dark2) !important;
+}
+
+.link {
+    color: var(--dark2) !important;
+}
+
+.primeiro {
+    border-right: 1px solid var(--dark2);
+}
+
+.box {
+    color: #fff;
+}
+
+#destino:focus {
+    outline: none !important;
+}
+
+.card:hover {
+    box-shadow: inset 0 -3em 3em rgba(255, 255, 255, 0.1);
+}
+
+.container__ofertas {
+    background-color: var(--dark2);
+}
+
+@media(min-width: 768px) {
+    .menu .nav-link {
+        background-color: rgba(36, 36, 36, 0.95) !important;
+        border: 2px solid var(--dark2);
+        color: #fff !important;
+    }
+}

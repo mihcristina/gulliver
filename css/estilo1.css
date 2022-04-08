@@ -1,0 +1,11 @@
+/*
+* 
+* @author Jamilton Damasceno
+*/
+
+body {
+
+background: url(../imagens/IMAGEMCAPAMENINA.jpeg), url(../imagens/ruido.png), linear-gradient(50deg,#ff4169,#7c26f8);
+background-attachment: fixed;
+
+}

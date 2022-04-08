@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+
+
+
+
+:root {
+    --cor0: #0040EB;
+    --cor1: #7EA1C4;
+    --cor2: #FABE00;
+    --cor3: #F5F300;
+    --cor4: #0CE66C;
+
+    --fonte-titulos: 'Roboto', sans-serif;
+    --fonte-padrao: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus,
+.button-acessibilidade:focus, .pular a:focus {
+    outline: 2px solid var(--cor0);
+}
+
+*::selection {
+    background-color: var(--cor1);
+}
+
+.esconder__acessibilidade {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    border: 0;
+    display: none;
+}
+
+
+.arriveImage {
+
+    width: 600px;
+    height: 600px;
+    margin: 5px;
+}
+
+.arriveBody {
+
+align-content: space-around;
+
+}
+
+
+.pular {
+    background-color: var(--cor1);
+    padding: 3px 0;
+}
+
+.pular a{
+    background-color: var(--cor2);
+    font-weight: 600;
+    color: var(--cor0);
+    border-radius: 8px;
+}
+
+.pular a:hover {
+    color: #fff;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--fonte-titulos);
+}
+
+/* barra de rolagem */
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--cor1);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #03178C;
+    border-radius: 7px;
+    height: 250px;
+}
+
+/* cabeçalho e modais*/
+.navbar,
+.titulo__login,
+footer {
+    background-color: var(--cor1);
+}
+
+.input:focus {
+    outline: 2px solid var(--cor2);
+}
+
+.menu .nav-link {
+    color: #fff !important;
+    padding: 0.3em;
+    font-size: 1.1em;
+    margin-bottom: 0.3em;
+}
+
+.dropdown-menu.show {
+    background-color: var(--cor2);
+}
+
+.menu .nav-link:hover,
+.btn {
+    background-color: var(--cor0);
+}
+
+.btn:hover {
+    background-color: #003feb98;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #003feb98 !important;
+    text-decoration: none;
+}
+
+.primeiro {
+    border-right: 1px solid var(--cor0);
+}
+
+.conectar__face:hover {
+    background-color: #4b7ec2 !important;
+}
+
+.conectar__google:hover {
+    background-color: #ccc !important;
+}
+
+/* menu principal */
+.menu__sessoes {
+    list-style: none;
+    padding-top: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    align-items: stretch;
+    margin-bottom: 0;
+}
+
+.menu__sessoes::-webkit-scrollbar {
+    height: 0.7em;
+}
+
+.link__box {
+    color: #666;
+    text-decoration: none;
+    min-width: 45vw;
+    padding-top: 0.2em;
+    transition: 0.5s;
+}
+
+.link__box:hover {
+    background-color: #eee;
+    color: var(--cor0);
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.link__box:focus {
+    margin: 0 0.2rem;
+    outline: none;
+    font-weight: 600;
+    box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.438);
+    color: var(--cor0);
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selecionado .box {
+    color: #FABE00 !important;
+    border-bottom: 5px solid #FABE00;
+    font-weight: bold;
+}
+
+/* campos de destino e filtros */
+.campo__pesquisa {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.titulo {
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+.formulario {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.busca {
+    background-color: #fff;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.busca>input {
+    border: none;
+    padding-left: 5px;
+}
+
+.busca>input:focus {
+    outline: none;
+}
+
+.busca>button {
+    border: none;
+    color: #666;
+    padding: 5px;
+    background-color: transparent;
+}
+
+#email__ofertas,
+#email,
+#email__conectar,
+#senha {
+    padding-left: 1.7em;
+    background-repeat: no-repeat;
+    background-position: 0.3em center;
+    background-size: 18px;
+}
+
+.filtros {
+    border: 1px solid #ccc;
+}
+
+.cima {
+    margin-bottom: 1em !important;
+}
+
+#data {
+    width: 80vw !important;
+}
+
+#inlineFormCustomSelectPref {
+    width: 70% !important;
+}
+
+.botao__ofertas:focus {
+    outline: 2px solid #fff;
+}
+
+/* conteúdo principal */
+.card {
+    box-shadow:
+        0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.5em;
+}
+
+.fa-star,
+.fa-star-half-alt {
+    color: var(--cor3);
+    font-size: 1.2em;
+}
+
+/* rodapé */
+footer {
+    text-align: center;
+}
+
+.titulo__rodape {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.contato {
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes__sociais {
+    font-size: 1.3em;
+}
+
+.redes__sociais:hover {
+    text-decoration: none;
+}
+
+/* campo para receber ofertas */
+.container__ofertas {
+    background-color: var(--cor2);
+    border-radius: 10px 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#email__ofertas,
+#email,
+#email__conectar {
+    background-image: url(../img/o-email1.png);
+}
+
+.botao__ofertas,
+.botao__filtrar {
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+#senha {
+    background-image: url(../img/lock.png);
+}
+
+.direitos,
+#ofertas {
+    font-size: 1.4em;
+
+}
+
+@media(min-width: 350px) {
+    .conectar__face {
+        background-image: url(../img/facebook-icon.png);
+        background-position: 1em center;
+        background-size: 1.5rem;
+        background-repeat: no-repeat;
+    }
+
+    .conectar__google {
+        background-image: url(../img/Google__G__Logo.svg.png);
+        background-position: 1em center;
+        background-size: 1.5em;
+        background-repeat: no-repeat;
+    }
+
+    .link__box {
+        min-width: 40vw;
+    }
+
+    #data {
+        width: 60vw !important;
+    }
+
+    .botao__filtrar {
+        width: auto;
+        margin-top: 0;
+    }
+
+    .redes__sociais {
+        font-size: 1.5em;
+    }
+}
+
+@media(min-width: 576px) {
+    .link__box {
+        min-width: 25vw;
+    }
+
+    #data {
+        width: auto !important;
+    }
+
+    .tipo__de__local {
+        width: auto;
+        text-align: left;
+    }
+
+    #email__ofertas {
+        width: auto;
+    }
+
+    .botao__ofertas {
+        width: auto;
+        margin-top: 0;
+    }
+
+    #inlineFormCustomSelectPref {
+        width: auto !important;
+    }
+}
+
+@media(min-width: 768px) {
+    .menu .nav-link {
+        background-color: var(--cor2);
+        color: var(--cor0) !important;
+        margin: 0 0.1em;
+        border-radius: 30px 10px;
+    }
+
+    .menu .nav-link:hover {
+        background-color: #f6cf4c;
+    }
+
+    .link__box {
+        min-width: 19vw;
+    }
+
+    .contato {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .container__ofertas {
+        width: 60%;
+    }
+}
+
+@media(min-width: 992px) {
+    .cima {
+        margin-bottom: 0 !important;
+    }
+}
+
