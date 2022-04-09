@@ -18,15 +18,15 @@ ele esta olhando no meu site, desta forma decidi usar a Maps JavaScript API do G
 
 # Aonde você pode encontrar o meu Mapa?
 
-1.Você deve ir na aba vida noturna e ao selecionar qualquer local irá abrir uma página com mais informações e o Mapa.
-
+<h3>1. Você deve ir na aba vida noturna e ao selecionar qualquer atração irá abrir uma página com mais informações e o Mapa.</h3>
+<br><br>
 <img src="Screen Shot 2022-04-08 at 21.12.35.png">
 
 
 <hr>
 
-2. Ao Selecionar algum local irá ver essa página com o Mapa
- <br>
+<h3>2. Ao Selecionar algum local irá ver essa página com o Mapa</h3>
+ <br><br>
 
 <img src="Screen Shot 2022-04-08 at 21.08.37.png">
 
