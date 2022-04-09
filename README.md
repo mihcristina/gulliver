@@ -1,5 +1,6 @@
 
-# O que queria trazer para os meus viajantes e qual API escolhi?
+<h1> O que queria trazer para os meus viajantes e qual API escolhi? </h1>
+
 
 
 Para trazer a melhor experiencia possível para os meus viajantes tive a idéia de usar uma Api de Mapa que já mostra aonde é local que 
@@ -17,9 +18,15 @@ ele esta olhando no meu site, desta forma decidi usar a Maps JavaScript API do G
 
 # Aonde você pode encontrar o meu Mapa?
 
-Você deve ir na aba vida noturna e ao selecionar qualquer local irá abrir uma página com mais informações e o Mapa.
+1.Você deve ir na aba vida noturna e ao selecionar qualquer local irá abrir uma página com mais informações e o Mapa.
+
+<img src="Screen Shot 2022-04-08 at 21.12.35.png">
 
 
+<hr>
+
+2. Ao Selecionar algum local irá ver essa página com o Mapa
+ <br>
 
 <img src="Screen Shot 2022-04-08 at 21.08.37.png">
 
