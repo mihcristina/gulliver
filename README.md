@@ -1,5 +1,5 @@
 
-<h1> O que queria trazer para os meus viajantes e qual API escolhi? </h1>
+<h1> O que queria trazer para os meus viajantes e qual API escolhemos? </h1>
 
 
 
