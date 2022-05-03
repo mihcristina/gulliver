@@ -1,281 +1,294 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/style.css">
-    
-    <!-- HTML5Shiv -->
-    <!--[if lt IE 9]>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- HTML5Shiv -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <![endif]-->
 
-    <!-- Estilo customizado -->
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <!-- Estilo customizado -->
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
-    <title>O Mundo é para todos - Traveller</title>
-    <link rel="icon" href="imagens/favicon.png">
-  </head>
-  <body>
-    
-    <main>
-<div>
-      <header><!-- inicio Cabecalho -->
+  <title>O Mundo é para todos - Traveller</title>
+  <link rel="icon" href="imagens/traveller-logo100.png">
+</head>
+
+<body>
+
+  <main>
+    <div>
+      <header>
+        <!-- inicio Cabecalho -->
         <nav class="navbar navbar-expand-md navbar-light  navbar-transparente">
           <div class="container">
-            
+
             <a href="index.html" class="navbar-brand">
               <img src="imagens/traveller-logo.png" width="142">
             </a>
-  
+
             <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
               <i class="fas fa-bars text-white"></i>
             </button>
-  
+
             <div class="collapse navbar-collapse" id="nav-principal">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a href="index.html" class="nav-link" style="font-size: 20px;" >Home</a>
+                  <a href="index.html" class="nav-link" style="font-size: 20px;">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a href="vidaNoturna.html" class="nav-link" style="font-size: 20px;" >Vida Noturna</a>
+                  <a href="vidaNoturna.html" class="nav-link" style="font-size: 20px;">Vida Noturna</a>
                 </li>
                 <li class="nav-item">
-                  <a href="" class="nav-link" style="font-size: 20px;" >Viagens</a>
+                  <a href="" class="nav-link" style="font-size: 20px;">Viagens</a>
                 </li>
-  
+
                 <li class="nav-item divisor"></li>
-  
+
                 <li class="nav-item">
-                  <a href="" class="nav-link" style="font-size: 20px;" >Sobre nós</a>
+                  <a href="" class="nav-link" style="font-size: 20px;">Sobre nós</a>
                 </li>
                 <li class="nav-item">
-                  <a href="" class="nav-link" style="font-size: 20px;" >Entrar</a>
+                  <a href="login.html" class="nav-link" style="font-size: 20px;">Entrar</a>
                 </li>
               </ul>
             </div>
-  
+
           </div>
         </nav>
-      </header><!--/fim Cabecalho -->
+      </header>
+      <!--/fim Cabecalho -->
 
     </div>
 
 
 
 
-</main>
-
-
-
-      <!--Campos reservado para a área de busca-->
-
-      <!--Area de Pesquisa Cidades-->
-      <section class="campo__pesquisa">
-          <h1 class="titulo text-center text-light pt-3">Vida <span style="color: #FABE00;">Noturna</span></h1>
-
-          <form action="/" method="post" name="formulario__pesquisa" class="formulario">
-              <div class="busca" style="margin: 100px;">
-                  <input type="search" name="destino" id="destino" placeholder="Pesquisar Destino">
-                  <button type="submit"><i class="fas fa-search-location"></i><span class="sr-only">Buscar</span></button>
-              </div>
-          </form>
-      </section>
-      <!--Fim Area de Pesquisa Cidades-->
-
-      <!--Area de Filtros -->
-      <section class="container filtros mt-3 p-3 my-3">
-          <form action="" method="post" name="formulario__filtro" class="form-inline justify-content-center">
-              <article class="form-group cima">
-                  <label for="data" class="mr-sm-2">Insira a data da Viagem: </label>
-                  <input type="date" class="form-control input" id="data">
-              </article>
-
-              <article class="form-group ml-3">
-                  <label class="mr-sm-2 tipo__de__local" for="inlineFormCustomSelectPref">Tipo de Local: </label>
-                  <select class="custom-select input" id="inlineFormCustomSelectPref">
-                      <option selected disabled>Selecione</option>
-                      <option value="1">Bar</option>
-                      <option value="2">Balada</option>
-                      <option value="3">Restaurante</option>
-                      <option value="3">Outro</option>
-                  </select>
-                  <button type="submit" class="btn text-light ml-sm-2 botao__filtrar input">Filtrar</button>
-              </article>
-          </form>
-      </section>
-      <!--Fim da Area de Filtros -->
-
-      <!--Area Reservada para imagens vida noturna, titulos e textos-->
-      <section class="container-fluid my-4" id="conteudo">
-          <div class="row">
-
-              <!-- primeiro card -->
-              <div class="col-12 col-sm-6 col-xl-3 my-2">
-                  <div tabindex="0" class="card">
-                      <picture>
-                          <source media="(min-width: 1200px)" srcset="./img/bar-brahma-300.jpg" type="image/jpg">
-                         <a href="barbrahma.html"> <img src="./img/bar-brahma-full.jpg" class="card-img-top p-xl-0"
-                              alt="Mesas e cadeiras nas tonalidades de marrom, paredes cheias de quadros com tons neutros"></a>
-                      </picture>
-                      <div class="card-body text-center">
-                          <h5 class="card-title">Bar Brahma</h5>
-                          <p class="card-text text-left lead">Um dos favoritos dos intelectuais, músicos e políticos
-                              nas décadas de 50 e 60, com cerveja, lanches e música.</p>
-                          <div>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <!-- Fim do primeiro card -->
-
-              <!-- segundo card -->
-              <div class="col-12 col-sm-6 col-xl-3 my-2">
-                  <div tabindex="0" class="card">
-                      <picture>
-                          <source media="(min-width: 1200px)" srcset="./img/veloso-300.jpg" type="image/jpg">
-                         <a href="veloso.html"><img src="./img/veloso-full.jpg" class="card-img-top p-xl-0"
-                              alt="coxinhas ao redor de um molho vermelho"></a> 
-                      </picture>
-                      <div class="card-body text-center">
-                          <h5 class="card-title">Veloso</h5>
-                          <p class="card-text text-left lead">Boteco animado e multipremiado, com clima carioca e
-                              várias opções de pratos, petiscos e caipirinhas famosas.</p>
-                          <div>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <!-- Fim do segundo card -->
-
-              <!-- terceiro card -->
-              <div tabindex="0" class="col-12 col-sm-6 col-xl-3 my-2">
-                  <div class="card">
-                      <picture>
-                          <source media="(min-width: 1200px)" srcset="./img/d-edge-300.jpg" type="image/jpg">
-                         <a href="d-edge.html"> <img src="./img/d-edge-full.jpg" class="card-img-top p-xl-0"
-                              alt="ambiente escuro com luminosidade verde"></a>
-                      </picture>
-                      <div class="card-body text-center">
-                          <h5 class="card-title">D-Edge</h5>
-                          <p class="card-text text-left lead">Casa noturna que aprimora a experiência sensorial com
-                              iluminação elaborada, design e os hits do momento.</p>
-                          <div>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <!-- Fim do terceiro card -->
-
-              <!-- quarto card -->
-              <div class="col-12 col-sm-6 col-xl-3 my-2">
-                  <div tabindex="0" class="card">
-                      <picture>
-                          <source media="(min-width: 1200px)" srcset="./img/villa-country-300.jpg" type="image/jpg">
-                          <a href="villaCountry.html"> <img src="./img/villa-country-full.jpg" class="card-img-top p-xl-0"
-                            alt="ambiente escuro com luminosidade verde"></a>
-                      </picture>
-                      <div class="card-body text-center">
-                          <h5 class="card-title">Villa Country</h5>
-                          <p class="card-text text-left lead">Boate temática de faroeste com vários ambientes, música
-                              country ao vivo e grandes pistas de dança.</p>
-                          <div>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star-half-alt"></i>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <!-- Fim do quarto card -->
-
-               
-
-
- 
-
-
-          </div>
-      </section>
-      <!--Fim Area Reservada para imagens vida noturna, titulos e textos-->
   </main>
 
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2">
-            <img src="imagens/traveller-logo100.png" width="142">
-          </div>
-          <div class="col-md-2">
-            <h4>company</h4>
-            <ul class="navbar-nav">
-              <li><a href="">Sobre</a></li>
-              <li><a href="">Empregos</a></li>
-              <li><a href="">Imprensa</a></li>
-              <li><a href="">Novidades</a></li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-            <h4>comunidades</h4>
-            <ul class="navbar-nav">
-              <li><a href="">Dicas</a></li>
-              <li><a href="">Desenvolvedores</a></li>
-              <li><a href="">Marcas</a></li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-            <h4>links uteis</h4>
-            <ul class="navbar-nav">
-              <li><a href="">Ajuda</a></li>
-              <li><a href="">Presentes</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <ul>
-              <li>
-                <a href=""><img src="imagens/facebook.png"></a>
-              </li>
-              <li>
-                <a href=""><img src="imagens/twitter.png"></a>
-              </li>
-              <li>
-                <a href=""><img src="imagens/instagram.png"></a>
-              </li>
-            </ul>
+
+
+  <!--Campos reservado para a área de busca-->
+
+  <!--Area de Pesquisa Cidades-->
+  <section class="campo__pesquisa">
+    <h1 class="titulo text-center text-light pt-3">Vida <span style="color: #FABE00;">Noturna</span></h1>
+
+    <form action="/" method="post" name="formulario__pesquisa" class="formulario">
+      <div class="busca" style="margin: 100px;">
+        <input type="search" name="destino" id="destino" placeholder="Pesquisar Destino">
+        <button type="submit"><i class="fas fa-search-location"></i><span class="sr-only">Buscar</span></button>
+      </div>
+    </form>
+  </section>
+  <!--Fim Area de Pesquisa Cidades-->
+
+  <!--Area de Filtros -->
+  <section class="container filtros mt-3 p-3 my-3">
+    <form action="" method="post" name="formulario__filtro" class="form-inline justify-content-center">
+      <article class="form-group cima">
+        <label for="data" class="mr-sm-2">Insira a data da Viagem: </label>
+        <input type="date" class="form-control input" id="data">
+      </article>
+
+      <article class="form-group ml-3">
+        <label class="mr-sm-2 tipo__de__local" for="inlineFormCustomSelectPref">Tipo de Local: </label>
+        <select class="custom-select input" id="inlineFormCustomSelectPref">
+          <option selected disabled>Selecione</option>
+          <option value="1">Bar</option>
+          <option value="2">Balada</option>
+          <option value="3">Restaurante</option>
+          <option value="3">Outro</option>
+        </select>
+        <button type="submit" class="btn text-light ml-sm-2 botao__filtrar input">Filtrar</button>
+      </article>
+    </form>
+  </section>
+  <!--Fim da Area de Filtros -->
+
+  <!--Area Reservada para imagens vida noturna, titulos e textos-->
+  <section class="container-fluid my-4" id="conteudo">
+    <div class="row">
+
+      <!-- primeiro card -->
+      <div class="col-12 col-sm-6 col-xl-3 my-2">
+        <div tabindex="0" class="card">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="./img/bar-brahma-300.jpg" type="image/jpg">
+            <a href="barbrahma.html"> <img src="./img/bar-brahma-full.jpg" class="card-img-top p-xl-0"
+                alt="Mesas e cadeiras nas tonalidades de marrom, paredes cheias de quadros com tons neutros"></a>
+          </picture>
+          <div class="card-body text-center">
+            <h5 class="card-title">Bar Brahma</h5>
+            <p class="card-text text-left lead">Um dos favoritos dos intelectuais, músicos e políticos
+              nas décadas de 50 e 60, com cerveja, lanches e música.</p>
+            <div>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
+      <!-- Fim do primeiro card -->
 
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+      <!-- segundo card -->
+      <div class="col-12 col-sm-6 col-xl-3 my-2">
+        <div tabindex="0" class="card">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="./img/veloso-300.jpg" type="image/jpg">
+            <a href="veloso.html"><img src="./img/veloso-full.jpg" class="card-img-top p-xl-0"
+                alt="coxinhas ao redor de um molho vermelho"></a>
+          </picture>
+          <div class="card-body text-center">
+            <h5 class="card-title">Veloso</h5>
+            <p class="card-text text-left lead">Boteco animado e multipremiado, com clima carioca e
+              várias opções de pratos, petiscos e caipirinhas famosas.</p>
+            <div>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fim do segundo card -->
+
+      <!-- terceiro card -->
+      <div tabindex="0" class="col-12 col-sm-6 col-xl-3 my-2">
+        <div class="card">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="./img/d-edge-300.jpg" type="image/jpg">
+            <a href="d-edge.html"> <img src="./img/d-edge-full.jpg" class="card-img-top p-xl-0"
+                alt="ambiente escuro com luminosidade verde"></a>
+          </picture>
+          <div class="card-body text-center">
+            <h5 class="card-title">D-Edge</h5>
+            <p class="card-text text-left lead">Casa noturna que aprimora a experiência sensorial com
+              iluminação elaborada, design e os hits do momento.</p>
+            <div>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fim do terceiro card -->
+
+      <!-- quarto card -->
+      <div class="col-12 col-sm-6 col-xl-3 my-2">
+        <div tabindex="0" class="card">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="./img/villa-country-300.jpg" type="image/jpg">
+            <a href="villaCountry.html"> <img src="./img/villa-country-full.jpg" class="card-img-top p-xl-0"
+                alt="ambiente escuro com luminosidade verde"></a>
+          </picture>
+          <div class="card-body text-center">
+            <h5 class="card-title">Villa Country</h5>
+            <p class="card-text text-left lead">Boate temática de faroeste com vários ambientes, música
+              country ao vivo e grandes pistas de dança.</p>
+            <div>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fim do quarto card -->
+
+
+
+
+
+
+
+    </div>
+  </section>
+  <!--Fim Area Reservada para imagens vida noturna, titulos e textos-->
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <img src="imagens/traveller-logo100.png" width="142">
+        </div>
+        <div class="col-md-2">
+          <h4>company</h4>
+          <ul class="navbar-nav">
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Empregos</a></li>
+            <li><a href="">Imprensa</a></li>
+            <li><a href="">Novidades</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h4>comunidades</h4>
+          <ul class="navbar-nav">
+            <li><a href="">Dicas</a></li>
+            <li><a href="">Desenvolvedores</a></li>
+            <li><a href="">Marcas</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h4>links uteis</h4>
+          <ul class="navbar-nav">
+            <li><a href="">Ajuda</a></li>
+            <li><a href="">Presentes</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li>
+              <a href=""><img src="imagens/facebook.png"></a>
+            </li>
+            <li>
+              <a href=""><img src="imagens/twitter.png"></a>
+            </li>
+            <li>
+              <a href=""><img src="imagens/instagram.png"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
